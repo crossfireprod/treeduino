@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<account version='1.0'>
+	<account>
+		<protocol>prpl-irc</protocol>
+		<name>chriscross93@chat1.ustream.tv</name>
+		<password>kuyig63</password>
+		<alias>TreeduinoLogBot</alias>
+		<statuses>
+			<status type='available' name='Available' active='true'>
+				<attributes/>
+			</status>
+			<status type='away' name='Away' active='false'>
+				<attributes>
+					<attribute id='message' value='I&apos;m not here right now'/>
+				</attributes>
+			</status>
+			<status type='offline' name='Offline' active='false'>
+				<attributes/>
+			</status>
+		</statuses>
+		<settings>
+			<setting name='realname' type='string'></setting>
+			<setting name='username' type='string'></setting>
+			<setting name='port' type='int'>6667</setting>
+			<setting name='ssl' type='bool'>0</setting>
+			<setting name='encoding' type='string'>UTF-8</setting>
+			<setting name='autodetect_utf8' type='bool'>0</setting>
+		</settings>
+		<settings ui='gtk-gaim'>
+			<setting name='auto-login' type='bool'>1</setting>
+		</settings>
+		<current_error/>
+	</account>
+</account>

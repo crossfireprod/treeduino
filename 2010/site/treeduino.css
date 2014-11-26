@@ -1,0 +1,202 @@
+body {
+	padding-top: 32px;
+	background: #6699FF;
+	text-align: center;
+}
+
+img {
+	border-style: none;
+}
+
+img.logo {
+	width: 800px;
+	height: 200px;
+}
+
+p.snleft {
+	text-align: right;
+	margin: 1px;
+}
+
+p.snright {
+	text-align: left;
+	margin: 1px;
+}
+
+table, td, th {
+	border: none;
+	text-align: middle;
+	vertical-align: middle;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.rules {
+	border: none;
+	text-align: middle;
+	vertical-align: middle;
+	padding: 0px;
+	width: 700px;
+}
+
+td.rules {
+	border: none;
+	text-align: left;
+	vertical-align: middle;
+	padding: 0px;
+}
+
+th {
+	border: none;
+	text-align: middle;
+	vertical-align: baseline;
+	padding: 0px;
+}
+
+p, ul {
+	font-family: "Arial";
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+p.title {
+	font-size: 22px;
+	color: #6600FF;
+}
+
+h1 {
+	font-family: 'Droid Sans';
+	font-size: 28px;
+	color: #FFCC33;
+	text-shadow: 0px 0px 5px #A9A9A9;
+}
+
+h2 {
+	font-family: "Arial";
+	font-size: 22px;
+	color: #003CB8;
+	text-shadow: 0px 0px 2px #E6E6E6;
+}
+
+.rule {
+	color: #B82E00;
+}
+
+a {
+	color: #7A00B8;
+	text-decoration: none;
+	-webkit-transition: color .25s ease-in;
+	transition: color .25s ease-in;
+}
+
+a:hover {
+	color: #FFB829;
+}
+
+a#toggle {
+	color: #E8E8E8;
+}
+
+a#toggle:hover {
+	color: #DBFF29;
+}
+
+iframe.arduino {
+	border: 1px white dashed;
+	align: middle;
+}
+
+.code {
+	color: #262626;
+}
+
+hr.team {
+	width: 261px;
+}
+
+table.contact {
+	table-layout: fixed;
+	cellspacing: 0px;
+}
+
+p.nameleft {
+	font-size: 18px;
+	color: #6600FF;
+	text-align: right;
+	margin: 1px;
+}
+
+p.nameright {
+	font-size: 18px;
+	color: #6600FF;
+	text-align: left;
+	margin: 1px;
+}
+
+p.picleft {
+	text-align: right;
+}
+
+p.picright {
+	text-align: left;
+}
+
+img.profile {
+	width: 128px;
+	height: 128px;
+}
+
+p.jobleft {
+	color: #E8E8E8;
+	text-align: right;
+	margin: 1px;
+}
+
+p.jobright {
+	color: #E8E8E8;
+	text-align: left;
+	margin: 1px;
+}
+
+p.contactleft {
+	color: #262626;
+	text-align: right;
+}
+
+p.contactright {
+	color: #262626;
+	text-align: left;
+}
+
+img.contacticon {
+	width: 32px;
+	height: 32px;
+}
+
+img.setup {
+	padding: 1px;
+}
+
+h1.title {
+	font-size: 40px;
+}
+
+div.faq {
+	padding-left: 12%;
+	padding-right: 12%;
+	text-align: left;
+}
+
+.faqspecial {
+	text-align: center;
+}
+
+@media screen {
+	@font-face {
+		font-family: 'Droid Sans';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Droid Sans'), local('DroidSans'), url('http://themes.googleusercontent.com/font?kit=rS9BT6-asrfjpkcV3DXf__esZW2xOQ-xsNqO47m55DA') format('truetype');
+	}
+}

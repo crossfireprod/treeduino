@@ -1,0 +1,57 @@
+Huh?
+
+First press the big play button the webcam stream. Set which things you would like on or off using the control panel inside the white dashes. Then hit the <input type='submit' value='Send to Tree'/> button and watch the webcam stream. You might have to wait a few seconds to see the tree change.
+
+I'm doing everything right, but the tree won't change!
+
+That's not a question.
+
+I'm doing everything right, but the tree won't change?
+
+Keep trying. Somebody else might have sent a command at the same time as you. Additionally, the system can very easily get overloaded if too many people are on and it might be ignoring your requests. Take a look at the number of viewers under the video stream. If it's more than 10, try again when it's less crowded. In the meantime, please enjoy this video:
+
+If I flick the lights enough, can I start a fire?
+
+Hope not.
+
+Who?
+
+Jacob Ford and Zach Cross, two geeky neighbors who love pancakes and hate broken Lego pieces. Jacob did the website and Zach did the hardware. The tree is actually in Zach's house, but, if Zach had invisible walls, you'd see Jacob's house.
+
+What?
+
+A Christmas tree that you can control.
+
+Where?
+
+Near Philadelphia, PA, United States, North America, Earth, Sol system, ZZ9 Plural Z Alpha, Orion Arm, Milky Way Galaxy.
+
+When?
+
+Christmas.
+
+Why?
+
+Because we, uh...
+
+Good question.
+
+How?
+
+We used an Arduino, and Ethernet Shield, a salvaged relay board, and a digital temperatur sensor. The part of the website in the white dashed box is hosted directly from the Ethernet Shield. When you set the scene and hit <input type='submit' value='Send to Tree'/>, the Ethernet Shield tells the Arduino which pins should be set high and which ones should be set low. Each pin on the Arduino is connected to a relay, which allows us to control a large amount of electricity (120 volts AC) with a small amount of electricity (5 volts DC). If a pin is set to high, the corresponding relay will switch on to complete the AC circuit and turn on whatever is connected to that relay. A pin set to low will make the relay switch off.
+
+The webcam is actually a PS2 EyeToy (remember those?). They are actually decent webcams and will work fine with your computer if you find the right drivers. We picked up a bunch of used ones for $2 each at GameStop. Anyway, the EyeToy is connected to a laptop streaming the video to uStream.
+
+Translation:
+
+You tell the tree what to do. Tree obeys. If tree doesn't obey, Santa and his robot monkey army tell it to obey.
+
+So a measly little Ethernet Shield is hosting this entire website?
+
+No, just the part in the dashed white box. The rest is on a normal web server at SharkSpace.
+
+Animals!
+
+Yes! Noddy is the black cat who thinks she's a dog and Sarah is the brown cat who knows she's a cat. Gretchen is the huge dog who thinks she's an alpha male. Alex is the average human and Zach is a larger version of Alex. Meg is the adorable small child. Mr. and Mrs. Cross are the parents.
+
+You'll probably see Mr. Cross avoiding the camera while Mrs. Cross cleans everything precisely within a pyramid raditing from the camera. Zach is probably chasing Alex. Alex is probably chasing food. Meg is probably carrying that food and chasing Gretchen. Gretchen is probably chasing Sarah, who is probably chasing Noddy. And Noddy is probably climbing the tree. Occasionally, Jacob might pop in for a visit. If you come on Christmas Eve, you might get a good view of Santa. Maybe by then we'll have some speakers you can turn on and scare him with.

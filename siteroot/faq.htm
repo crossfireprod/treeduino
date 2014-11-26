@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!--I always forget the HTML comment syntax, so I put this here for quick reference.-->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="Keywords" content="christmas, holiday, christmas tree, arduino, internet tree, faq">
+	<meta name="Description" content="All the answers you never wanted to hear about the questions you never really had about Treeduino">
+	<title>Treeduino nsFAQ</title>
+	<link rel="stylesheet" type="text/css" href="treeduino.css" />
+
+	<script type="text/javascript" src="snowstorm.js"></script>
+	
+	<script type="text/javascript" language="JavaScript"><!--
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+//--></script>
+
+	<script src="http://www.google.com/moderator/static/moderator-embed-api.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20100082-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+	</script>
+</head>
+
+<body>
+	<div>
+		<a href="/"><img class="logo" src="./images/logo.png" alt="Treeduino"></a>
+	</div>
+	<br>
+	<div>
+		<script type="text/javascript">
+		<!--
+		var r_text = new Array ();
+		r_text[0] = "Treequently Asked Questions";
+		r_text[1] = "Not-so-Frequently Asked Questions";
+		r_text[2] = "Frequently Given Answers";
+		r_text[3] = "Answers Worth Questioning";
+		var i = Math.floor(4*Math.random())
+
+		document.write('<h1 class="title">' + r_text[i] + '</ht>');
+		//-->
+		</script>
+	</div>
+	<div class="faq">
+		<h2 class="question">Huh?</h2>
+		<p>First press the big play button the webcam stream. Set which things you would like on or off using the control panel inside the white dashes. Then hit the <input type='submit' value='Send to Tree'/> button and watch the webcam stream. You might have to wait a few seconds to see the tree change.</p>
+
+		<h2 class="question">I'm doing everything right, but the tree won't change!</h2>
+		<p>That's not a question.</p>
+		
+		<h2 class="question">I'm doing everything right, but the tree won't change?</h2>
+		<p>Keep trying. Somebody else might have sent a command at the same time as you. Additionally, the system can very easily get overloaded if too many people are on and it might be ignoring your requests. Take a look at the number of viewers under the video stream. If there are more than 10, try again when it's less crowded. In the meantime, please enjoy this video Jacob made of New York <a href="http://makerfaire.com/">Maker Faire</a> 2010:</p>
+		<p class="faqspecial"><object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/gN0NeSMv4LI?fs=1&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/gN0NeSMv4LI?fs=1&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object></object></p>
+		
+		<h2 class="question">If I flick the lights enough, can I start a fire?</h2>
+		<p>Hope not.</p>
+		
+		<h2 class="question">I started a fire.</h2>
+		<p>Please call 911. Unfortunately, there is no fire extinguisher that you can activate from the control panel. We're still working on that.</p>
+		
+		<h2 class="question">Who?</h2>
+		<p>Jacob Ford and Zach Cross, two geeky neighbors who love <a href="http://www.getbuckyballs.com">Buckyballs</a> and hate country music. Jacob did the website and Zach did the hardware. The tree is in Zach's house, but, if Zach had invisible walls, you'd see right through to Jacob's house.</p>
+		
+		<h2 class="question">What?</h2>
+		<p>A Christmas tree that you can control.</p>
+		
+		<h2 class="question">Where?</h2>
+		<p>Near Philadelphia, PA, United States, North America, Earth, Sol system, ZZ9 Plural Z Alpha, Orion Arm, Milky Way Galaxy.</p>
+		
+		<h2 class="question">When?</h2>
+		<p>Christmas.</p>
+		
+		<h2 class="question">Why?</h2>
+		<p>Because we, uh...</p>
+		<p>Good question.</p>
+		
+		<h2 class="question">How?</h2>
+		<p>We used an <a href="http://www.arduino.cc">Arduino</a>, an <a href="http://www.arduino.cc/en/Main/ArduinoEthernetShield">Ethernet Shield</a>, a salvaged relay board, and some canned sugarplum <a href="http://www.fairydust.com/">fairydust</a>. The part of the website in the white dashed box is hosted directly from the Ethernet Shield. When you set the scene and hit <input type='submit' value='Send to Tree'/>, the Ethernet Shield tells the Arduino which pins should be set high and which ones should be set low. Each pin on the Arduino is connected to a relay, which allows us to control a large amount of electricity (120 volts AC) with a small amount of electricity (5 volts DC). If a pin is set to high, the corresponding relay will switch on to complete the AC circuit and turn on whatever is connected to that relay. A pin set to low will make the relay switch off.</p>
+		<p>The webcam is actually a PS2 EyeToy (remember those?). They are actually decent Logitech webcams and will work fine with your computer if you find the right drivers. We picked up a bunch of used ones for $2 each at GameStop. Anyway, the EyeToy is connected to a laptop streaming the video to uStream.</p>
+		<p>The star <a href="http://www.youtube.com/watch?v=OFjYrioa7Bw">atop</a> the tree is powered by a bunch of RGB LEDs. You're simply telling it which colors to mix together. If you turn on The Rainbowifier, it slowly cycles through some being on and some being off. The rest is all simple <a href="http://en.wikipedia.org/wiki/Additive_color">Additive Color Theory</a>.</p>
+		<div class="faqspecial">
+		<a href="./images/fullsetup.jpg"><img class="setup" src="./images/fullsetupthumb.jpg" title="Full Setup"></a>
+		<a href="./images/arduino.jpg"><img class="setup" src="./images/arduinothumb.jpg" title="Arduino, Ethernet Shield, and Breadboard"></a>
+		<a href="./images/relays.jpg"><img class="setup" src="./images/relaysthumb.jpg" title="Relay Board"></a>
+		<a href="./images/streaming.jpg"><img class="setup" src="./images/streamingthumb.jpg" title="EyeToy, Ethernet Switch, and Netbook"></a>
+		<a href="./images/deckedoutnetbook.jpg"><img class="setup" src="./images/deckedoutnetbookthumb.jpg" title="Decked Out Netbook"></a>
+		</div>
+		
+		<h2 class="question">Translation?</h2>
+		<p>You tell the tree what to do. Tree obeys. If tree doesn't obey, Santa and his robot monkey army tell it to obey.</p>
+		
+		<h2 class="question">So a measly little Ethernet Shield is hosting this entire website?</h2>
+		<p>No, we're not that cruel to our Arduino. Just the part in the dashed white box is managed by the Arduino (it's an iframe). The rest is on a normal web server with <a href="http://www.eleven2.com/1760.html">Eleven<sup>2</sup></a>.</p>
+		
+		<h2 class="question">Animals!</h2>
+		<p>Yes! Noddi is the black cat who thinks she's a dog and Sarah is the brown cat who knows she's a cat (and hates Noddi). Gretchen is the huge female dog who thinks she's the alpha male. Alex is the average human and Zach is a more stable release of Alex. Meg is the opinionated small child. Mr. and Mrs. Cross are the parents.</p>
+		<p>You'll likely see Mr. Cross avoiding the camera while Mrs. Cross cleans everything precisely within a pyramid radiating from the lens. Zach is probably chasing Alex. Alex is probably chasing food. Meg is probably carrying that food and chasing Gretchen. Gretchen is probably chasing Sarah, who is probably chasing Noddi. And Noddi is probably climbing the tree. Occasionally, Jacob might pop in for a visit. If you come on Christmas Eve, you might get a good view of Santa. Maybe by then we'll have some speakers you can turn on and scare him with.</p>
+		
+		<h2 class="question">Why does your living room keep turning into Driod RAZR's and Battlefields?</h2>
+		<p>We're using a service called uStream so you can see the tree live as you turn it off and on. uStream is free, but they cover their operational costs with ads. Although we do agree it can sometimes get a little crazy. We've been looking for a less ad-obsessed alternative to uStream, but we haven't found anything. If you know of something, please let us know.</p>
+		
+		<!--
+		<h2 class="question">Couldn't you adapt this to turn on and off other things away from home?</h2>
+		<p>Definitely! No more forgetting to turn your lavalamp off when you go on vacation.</p>
+		-->
+		
+		<h2 class="question">Where'd you get all the equipment?</h2>
+		<p>Pretty much all of it either came from <a href="http://www.sparkfun.com">SparkFun</a> or was rescued from certain death by trash compactor.</p>
+		
+		<!--
+		<h2 class="question">How much would this cost for me to do?</h2>
+		<p><ul>
+		<li>Arduino: $30
+		<li>Ethernet Shield: $50
+		<li>Relay board: $40
+		</ul>
+		</p>
+		-->
+		
+		<h2 class="question">Can I have your autographs?</h2>
+		<p>Wow! Now we feel really famous. Anything you send to us with return postage (a self-addressed stamped envelope or an Arduino inside a box addressed to you with paid postage, inside another box addressed to us hopefully with paid postage) will be autographed and sent back to you. Anything you send to us without return postage will be considered a kind donation to Treeduino and, depending on what it is, will likely be displayed within the webcam.</p>
+		
+		<p>Treeduino<br>
+		371 W Chestnut St.<br>
+		Souderton, PA 18964</p>
+		
+		<p>That's <b>not</b> the address of the tree. No peeking in the windows.</p>
+		
+		<h2 class="question">Can I convince you to hold up a sign or do a cartwheel?</h2>
+		<p>You can certainly try. <a href="javascript:ReverseDisplay('hidden')">Take a peek</a> at the chatroom and see if Jacob (unitof) or Zach (chriscross93) is on.</p>
+		
+		<div class="faqspecial" id="hidden" style="display:none;">
+		<embed width="712" height="296" type="application/x-shockwave-flash" flashvars="brandId=1&amp;channelId=6425637&amp;channel=23treeduino-2011&amp;server=chat1.ustream.tv&amp;locale=en_US" pluginspage="http://www.adobe.com/go/getflashplayer" src="http://www.ustream.tv/flash/irc.swf" allowfullscreen="true" /></tr></td>
+		<p>Be nice and keep it clean. Change your nickname with <font class="code">/nick yournamehere</font>.</p>
+		</div>
+		
+		<h2 class="question">Could you give me some cool secret fact so I can act like I know you when I tell my friends about this?</h2>
+		<p>You bet! The Arduino is autographed by Stephen and Fretz of <a href="http://www.eepybird.com/">Eepybird</a>. They <a href="http://www.eepybird.com/featured-video/the-extreme-diet-coke-mentos-experiments/">mixed</a> Diet Coke and Mentos.</p>
+		
+		<h2 class="question">My question's better than all of these.</h2>
+		<p>Give the ol' Google Moderator a whirl!</p>
+		<div class="faqspecial" id="moderator-embed-target"></div>
+		<script type="text/javascript"> 
+			var mod = new MODERATOR("http://www.google.com/moderator/#16/e=473f7"); 
+			mod.hl = "en"; 
+			mod.width = 1000; 
+			mod.height = 600; 
+			mod.embed("moderator-embed-target"); 
+		</script>
+	</div>
+</body>
+
+</html>

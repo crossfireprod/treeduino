@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<!--I always forget the HTML comment syntax, so I put this here for quick reference.-->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="Keywords" content="christmas, holiday, christmas tree, arduino, internet tree">
+	<meta name="Description" content="The online Arduino-controlled Christmas tree: powered by sugarplum fairies and the internet.">
+	<title>Treeduino</title>
+	<link rel="stylesheet" type="text/css" href="treeduino.css" />
+
+	<script type="text/javascript" src="snowstorm.js"></script>
+	
+	<script type="text/javascript" language="JavaScript"><!--
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+//--></script>
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20100082-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+	</script>
+</head>
+
+<body>
+	<div>
+	<img class="logo" src="./images/logo.png" alt="Treeduino">
+	</div>
+	<br>
+	
+	<table class="annoyingsnbuttons">
+		<col width="450" />
+		<col width="5" />
+		<col width="450" />
+		<tr>
+			<td><p class="snleft"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.treeduino.com" data-text="Control @unitof's Christmas Tree!" data-count="vertical" data-related="unitof:Treeduino Website Designer">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></p></td>
+			<td></td>
+			<td><p class="snright"><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="treeduino.com" layout="box_count" show_faces="true" width="450" font="arial"></fb:like></p></td>
+		</tr>
+	</table>
+	<br>
+	<div>
+	<div>
+		<table>
+			<tr>
+			<th><p class="title">the control panel</p></th>
+			<th></th>
+			<th><p class="title">the tree</p></th>
+			</tr>
+			
+			<tr>
+			<td><p>Set the scene. Make it extra pretty.</p></td>
+			<td></td>
+			<td><p>Well isn't that just lovely?</p></td>
+			</tr>
+			
+			<tr>
+			<td><iframe class="arduino" src="http://netstore.webhop.org:3223/tree/form" width="100%" height="100%"><p>You silly sleepy head! You need iframes to play with the tree!</p></iframe></td>
+			<td><img src="images/arrow.png"></td>
+			<td><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="360" height="296" id="utv300252"><param name="flashvars" value="autoplay=false&amp;brand=embed&amp;cid=6425637&amp;v3=1"/><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://www.ustream.tv/flash/viewer.swf"/><embed flashvars="autoplay=false&amp;brand=embed&amp;cid=6425637&amp;v3=1" width="360" height="296" allowfullscreen="true" allowscriptaccess="always" id="utv300252" name="utv_n_917095" src="http://www.ustream.tv/flash/viewer.swf" type="application/x-shockwave-flash" /></object></td>
+			</tr>
+		</table>
+	</div>
+		<h2 class="rule">Take turns and share with others. There's only one tree for all of you.</h2>
+	<div id="hidden" style="display:none;">
+		<embed width="712" height="296" type="application/x-shockwave-flash" flashvars="brandId=1&amp;channelId=6425637&amp;channel=%23cross-christmas-tree-2010&amp;server=chat1.ustream.tv&amp;locale=en_US" pluginspage="http://www.adobe.com/go/getflashplayer" src="http://www.ustream.tv/flash/irc.swf" allowfullscreen="true" /></tr></td>
+		<p>Be nice and keep it clean. Change your nickname with <font class="code">/nick yournamehere</font>.</p>
+	</div>
+	<h2><a href="faq.htm">(not so) faq</a></h2>
+	<h2><a id="toggle" href="javascript:ReverseDisplay('hidden')">toggle chat</a></h2>
+	<hr class="team" color="#ff9900">
+	<div class="team">
+		<h1>the treeduino team</h1>
+		<table class="contact">
+		<col width="128" />
+		<col width="5" />
+		<col width="128" />
+		<tr>
+			<td><p class="nameleft">Jacob Ford</p></td>
+			<td></td>
+			<td><p class="nameright">Zach Cross</p></td>
+		</tr>
+		<tr>
+			<td><p class="picleft"><a href="http://www.jacobford.com"><img class="profile" src="./images/jacob.png"></a></p></td>
+			<td></td>
+			<td><p class="picright"><img class="profile" src="./images/zach.png"></p></td>
+		</tr>
+		<tr>
+			<td><p class="jobleft">site design</p></td>
+			<td></td>
+			<td><p class="jobright">hardware</p></td>
+		</tr>
+		<tr>
+			<td><p class="contactleft">
+			<a href="http://www.unitofcreativity.com"><img class="contacticon" src="./images/uoc.png"></a>
+			<a href="http://www.twitter.com/unitof"><img class="contacticon" src="./images/twitter.png"></a>
+			</p></td>
+			<td></td>
+			<td><p class="contactright"><a href="mailto:contact@crossfireproductions.org"><img class="contacticon" src="./images/email.png"></a></p></td>
+		</tr>
+		</table>
+	</div>
+	</div>
+</body>
+
+</html>

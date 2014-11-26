@@ -1,0 +1,160 @@
+body {
+	padding-top: 32px;
+	background: #6699FF;
+	text-align: center;
+}
+
+img {
+	border-style: none;
+}
+
+img.logo {
+	width: 800px;
+	height: 200px;
+}
+
+h1 {
+	font-family: 'Droid Sans';
+	color: #FFCC33;
+	font-size: 80px;
+	font-style: normal;
+	margin: .1em;
+	text-shadow: 0px 0px 5px #A9A9A9;
+}
+
+h2 {
+	font-family: 'Droid Sans';
+	font-size: 28px;
+	font-style: normal;
+	margin: .1em;
+	color: #FFCC33;
+	text-shadow: 0px 0px 3px #A9A9A9;
+}
+
+h3 {
+	font-family: "Arial";
+	font-size: 22px;
+	font-style: normal;
+	margin: .1em;
+	color: #003CB8;
+	text-shadow: 0px 0px 2px #E6E6E6;
+}
+
+a {
+	color: #7A00B8;
+	text-decoration: none;
+	-webkit-transition: color .25s ease-in;
+	transition: color .25s ease-in;
+}
+
+a:hover {
+	color: #FFB829;
+}
+
+a#toggle {
+	color: #FFCC33;
+	text-decoration: none;
+	-webkit-transition: color .25s ease-in;
+	transition: color .25s ease-in;
+}
+
+a#toggle:hover {
+	color: #CCFF33;
+}
+
+div.byebyemessage {
+	width: 800px;
+	margin: 0px auto 40px;
+}
+
+div#hidden {
+	margin: 10px auto;
+	width: 900px;
+	background: #000000;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	box-shadow: 0px 0px 15px #000000;
+	-moz-box-shadow: 0px 0px 15px #000000;
+	-webkit-box-shadow: 0px 0px 15px #000000;
+}
+
+hr.team {
+	width: 261px;
+}
+
+table, td, th {
+	border: none;
+	text-align: middle;
+	vertical-align: middle;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.contact {
+	table-layout: fixed;
+	cellspacing: 0px;
+}
+
+p.nameleft {
+	font-size: 18px;
+	color: #6600FF;
+	text-align: right;
+	margin: 1px;
+}
+
+p.nameright {
+	font-size: 18px;
+	color: #6600FF;
+	text-align: left;
+	margin: 1px;
+}
+
+p.picleft {
+	text-align: right;
+}
+
+p.picright {
+	text-align: left;
+}
+
+img.profile {
+	width: 128px;
+	height: 128px;
+}
+
+p.jobleft {
+	color: #E8E8E8;
+	text-align: right;
+	margin: 1px;
+}
+
+p.jobright {
+	color: #E8E8E8;
+	text-align: left;
+	margin: 1px;
+}
+
+p.contactleft {
+	color: #262626;
+	text-align: right;
+}
+
+p.contactright {
+	color: #262626;
+	text-align: left;
+}
+
+img.contacticon {
+	width: 32px;
+	height: 32px;
+}
+
+@media screen {
+	@font-face {
+		font-family: 'Droid Sans';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Droid Sans'), local('DroidSans'), url('http://themes.googleusercontent.com/font?kit=rS9BT6-asrfjpkcV3DXf__esZW2xOQ-xsNqO47m55DA') format('truetype');
+	}
+}
