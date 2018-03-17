@@ -1,4 +1,4 @@
-![Treeduino Logo](https://treeduino.com/images/logo.png)
+![Treeduino Logo](https://www.treeduino.com/images/logo.png)
 ==================================
 
 “Fueled by sugarplum fairies and the Internet,” the Treeduino gave visitors of [treeduino.com](https://treeduino.com/) live control of the
