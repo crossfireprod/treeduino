@@ -5,7 +5,7 @@
  ***************************
  * 
  * Arduino Uno w/ ETHShield
- * Arduino IDE 022
+ * Arduino IDE 1.5.4 on Ubuntu 13.10
  *
  * Most of the Ethernet related parts of the code were derived from the Web_Demo
  * Sketch of the Webduino library (MIT License) by Ben Combee.  
@@ -105,9 +105,13 @@
  *
  *      - Treeduino code revisions v1.5/6 may be compromised by accidental "save-overs."
  *
+ *  v1.9:
+ *      - 2013 Development Season Begins
+ *      - Reset Flick Counter, moved starting EEPROM address from 32 to 64 for wear leveling.
+ *
  *
  */
-char verNum[] = "Treeduino 2012 | v1.8";  // Saved to EEPROM in Setup method as well as printed invisibly (same color as background) in the web form.
+char verNum[] = "Treeduino 2013 | v1.9";  // Saved to EEPROM in Setup method as well as printed invisibly (same color as background) in the web form.
 
 // Ititialization Configuration //////////////////////////////////////////////////////////
 
@@ -282,7 +286,7 @@ void formCmd(WebServer &server, WebServer::ConnectionType type, char *url_tail, 
     
     /***EEPROM flickCounter Write***/
     flickCounter += 1;
-    EEPROM_writeAnything(32, flickCounter);
+    EEPROM_writeAnything(64, flickCounter);
     /***END EEPROM flickCounter Write***/
     
     bool repeat;
@@ -355,7 +359,7 @@ void setup()
    } // END Channel Test Sequence
   
   // Grab last flickCounter value from EEPROM.
-  EEPROM_readAnything(32, flickCounter);
+  EEPROM_readAnything(64, flickCounter);
   
   // Write version number to EEPROM for safekeeping / recovery later.
   EEPROM_writeAnything(0, verNum);
