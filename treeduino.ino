@@ -224,7 +224,7 @@ void outputPins(WebServer &server, WebServer::ConnectionType type, bool addContr
     server << "<div class='radiobuttons'>";
 
   // Array of labels for each digital output.  0 and 1 (TX/RX) are not used and must remain blank.
-  char* strLightStrings[] = {"", "", "Big Tree White", "Big Tree Rainbow", "Small Left Tree", "Window Accent", "Small Right Tree", "Star Red", "Star Green", "Star Blue", "", "", "", "", "Star Rainbowifier"};
+  char* strLightStrings[] = {"", "", "Big Tree White", "Big Tree Rainbow", "Small Left Tree", "Window Accent", "Santa Claus", "Star Red", "Star Green", "Star Blue", "", "", "", "", "Star Rainbowifier"};
  
   for (i = 2; i <= 9; ++i)
   {
@@ -341,7 +341,7 @@ void setup()
   // Channel Test Sequence
   for (int i = 2; i <= 9; ++i) {
    digitalWrite(i, HIGH);
-   delay(50);
+   delay(125);
 
    if ( i == 9) {
        for (int i = 2; i <= 9; ++i) {
