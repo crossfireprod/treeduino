@@ -107,7 +107,7 @@
  *
  *
  */
-char verNum[] = "Treeduino 2011 | v1.7";  // Saved to EEPROM in Setup method as well as printed invisibly (same color as background) in the web form.
+char verNum[] = "Treeduino 2012 | v1.8";  // Saved to EEPROM in Setup method as well as printed invisibly (same color as background) in the web form.
 
 // Ititialization Configuration //////////////////////////////////////////////////////////
 
@@ -220,9 +220,9 @@ void outputPins(WebServer &server, WebServer::ConnectionType type, bool addContr
     server << "<div class='radiobuttons'>";
 
   // Array of labels for each digital output.  0 and 1 (TX/RX) are not used and must remain blank.
-  char* strLightStrings[] = {"", "", "Tree White", "Tree Rainbow", "Banister White", "Banister Rainbow", "Little Tree", "Star Red", "Star Green", "Star Blue", "", "", "", "", "Star Rainbowifier"};
+  char* strLightStrings[] = {"", "", "Big Tree White", "Big Tree Rainbow", "Small Left Tree", "Window Accent", "Small Right Tree", "Star Red", "Star Green", "Star Blue", "", "", "", "", "Star Rainbowifier"};
  
-  for (i = 2; i <= 14; ++i)
+  for (i = 2; i <= 9; ++i)
   {
         
     if ( i == 10 ) { // Insert note explaining Star Rainbowifier
